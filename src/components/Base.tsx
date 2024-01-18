@@ -56,7 +56,7 @@ interface BaseProps extends SvgProps {
   size: number
   containerStyles: ViewStyle
   containerProps: ViewProps
-  svgRef?: React.Ref<Svg>
+  svgRef?: any
 }
 
 export const Base = ({
