@@ -90,7 +90,7 @@ import { BgSquircle } from './backgrounds/BgSquircle'
 import { BgCircleMask } from './backgrounds/BgCircleMask'
 import { BgSquareMask } from './backgrounds/BgSquareMask'
 import { BgSquircleMask } from './backgrounds/BgSquircleMask'
-import { SvgProps } from 'react-native-svg'
+import { Svg, SvgProps } from 'react-native-svg'
 
 export const eyesMap = {
   normal: NormalEyes,
@@ -239,7 +239,7 @@ export interface AvatarProps extends SvgProps {
   size?: number
   containerStyles?: ViewStyle
   containerProps?: ViewProps
-  svgRef?: React.Ref<React.Component<SvgProps>>
+  svgRef?: React.Ref<Svg>
 }
 
 export const Avatar = ({
